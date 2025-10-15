@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  @apply bg-white text-slate-900 transition-colors duration-300 ease-out;
+}
+
+.dark body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+a {
+  @apply text-brand-600 hover:text-brand-500;
+}

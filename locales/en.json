@@ -1,0 +1,57 @@
+{
+  "appTitle": "CipherSafe",
+  "appSubtitle": "Securely store your credentials encrypted with your password.",
+  "actions": {
+    "login": "Sign in",
+    "register": "Create account",
+    "logout": "Sign out",
+    "addCredential": "Add credential",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "delete": "Delete",
+    "decrypt": "Decrypt",
+    "unlock": "Unlock",
+    "copy": "Copy"
+  },
+  "auth": {
+    "name": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "switchToLogin": "Already have an account?",
+    "switchToRegister": "Need an account?",
+    "loginSuccess": "Welcome back!",
+    "registerSuccess": "Account created. Please sign in.",
+    "invalidCredentials": "Invalid email or password."
+  },
+  "vault": {
+    "empty": "No credentials yet. Add your first one.",
+    "platform": "Platform",
+    "username": "Username",
+    "password": "Password",
+    "notes": "Notes",
+    "copied": "Copied to clipboard.",
+    "decryptPrompt": "Enter your password to unlock stored credentials.",
+    "createHint": "Credentials are encrypted in your browser before being saved.",
+    "added": "Credential saved successfully.",
+    "removed": "Credential deleted.",
+    "unlockTitle": "Unlock vault",
+    "unlockHelp": "Provide your master password to decrypt existing entries.",
+    "confirmDeleteTitle": "Delete credential?",
+    "confirmDeleteMessage": "This action cannot be undone. Do you want to continue?"
+  },
+  "preferences": {
+    "theme": "Theme",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "errors": {
+    "required": "This field is required.",
+    "passwordMatch": "Passwords do not match.",
+    "generic": "Something went wrong. Please try again."
+  }
+}

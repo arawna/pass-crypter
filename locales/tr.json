@@ -1,0 +1,57 @@
+{
+  "appTitle": "CipherSafe",
+  "appSubtitle": "Hesap bilgilerinizi kendi şifrenizle şifreleyerek güvenle saklayın.",
+  "actions": {
+    "login": "Giriş yap",
+    "register": "Kayıt ol",
+    "logout": "Çıkış yap",
+    "addCredential": "Bilgi ekle",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "confirm": "Onayla",
+    "close": "Kapat",
+    "delete": "Sil",
+    "decrypt": "Şifreyi çöz",
+    "unlock": "Kilidi aç",
+    "copy": "Kopyala"
+  },
+  "auth": {
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi doğrula",
+    "switchToLogin": "Zaten hesabın var mı?",
+    "switchToRegister": "Hesabın yok mu?",
+    "loginSuccess": "Tekrar hoş geldin!",
+    "registerSuccess": "Hesap oluşturuldu. Lütfen giriş yap.",
+    "invalidCredentials": "E-posta veya şifre hatalı."
+  },
+  "vault": {
+    "empty": "Henüz kayıtlı bilgi yok. İlk kaydını ekle.",
+    "platform": "Platform",
+    "username": "Kullanıcı adı",
+    "password": "Şifre",
+    "notes": "Notlar",
+    "copied": "Panoya kopyalandı.",
+    "decryptPrompt": "Kayıtlı bilgileri açmak için şifreni gir.",
+    "createHint": "Bilgiler kaydedilmeden önce tarayıcınızda şifrelenir.",
+    "added": "Bilgi başarıyla kaydedildi.",
+    "removed": "Bilgi silindi.",
+    "unlockTitle": "Kasayı aç",
+    "unlockHelp": "Kayıtlı girişleri çözmek için ana şifreni gir.",
+    "confirmDeleteTitle": "Bilgiyi sil?",
+    "confirmDeleteMessage": "Bu işlem geri alınamaz. Devam etmek istiyor musun?"
+  },
+  "preferences": {
+    "theme": "Tema",
+    "language": "Dil",
+    "light": "Aydınlık",
+    "dark": "Karanlık",
+    "system": "Sistem"
+  },
+  "errors": {
+    "required": "Bu alan zorunludur.",
+    "passwordMatch": "Şifreler eşleşmiyor.",
+    "generic": "Bir sorun oluştu. Lütfen tekrar dene."
+  }
+}
