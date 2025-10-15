@@ -50,12 +50,13 @@ export default function DashboardPage() {
       setEntries([]);
       return;
     }
+    const authToken = token;
 
     async function load() {
       setFetching(true);
       setFormError(null);
       try {
-        const result = await fetchEntries(token);
+        const result = await fetchEntries(authToken);
         const ordered = [...result.entries].sort(
           (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
         );
@@ -76,13 +77,14 @@ export default function DashboardPage() {
       setPasswords({});
       return;
     }
+    const activeKey = encryptionKey;
 
     let cancelled = false;
     async function decryptAll() {
       try {
         const decryptedPairs = await Promise.all(
           entries.map(async (entry) => {
-            const password = await decryptSecret(encryptionKey, entry.ciphertext, entry.iv);
+            const password = await decryptSecret(activeKey, entry.ciphertext, entry.iv);
             return { id: entry.id, password };
           })
         );

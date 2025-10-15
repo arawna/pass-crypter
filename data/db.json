@@ -1,42 +1,5 @@
 {
-  "users": [
-    {
-      "id": "87f474bd-b243-4a2e-b624-920ddb188235",
-      "email": "alihocaoglu1220@gmail.com",
-      "name": "Ali Hocaoğlu",
-      "passwordHash": "$2a$12$p6LpKN1vnP2nr7G57K762u3g9BhyQxgn7LTeuhkm.1lBpTLPYEJ9y",
-      "encryptionSalt": "UoboEC3GyLdg61ap1xisSA==",
-      "createdAt": "2025-10-15T15:39:03.332Z"
-    }
-  ],
-  "sessions": [
-    {
-      "token": "5dffa76c90c3a812d74437fe4412f5ff5614fffd5498366acdf144003289e3d4",
-      "userId": "87f474bd-b243-4a2e-b624-920ddb188235",
-      "createdAt": "2025-10-15T16:58:15.030Z",
-      "expiresAt": "2025-10-16T16:58:15.030Z"
-    }
-  ],
-  "entries": [
-    {
-      "id": "7f6568b7-9635-470d-87a7-73c68fa15e0e",
-      "userId": "87f474bd-b243-4a2e-b624-920ddb188235",
-      "platform": "Facebook",
-      "username": "ali.hocaoglu",
-      "ciphertext": "7f9/7Nb28zEMsyMeo5BJTg44afFp/UPq3VueIBrmRQHPfVwvgGcrEVQdMPjkUhdq3IZg9tGY2/PSJfzN/vZ43be68FTfrQOVdjwCtA==",
-      "iv": "njxbLX8+H0lgrDfR",
-      "createdAt": "2025-10-15T16:07:21.414Z",
-      "updatedAt": "2025-10-15T16:07:21.414Z"
-    },
-    {
-      "id": "b38e59d6-0d8c-422b-808d-48523c1f6ea6",
-      "userId": "87f474bd-b243-4a2e-b624-920ddb188235",
-      "platform": "Gitlab",
-      "username": "denemeasd@gmail.com",
-      "ciphertext": "vyrU3H/Hvz7ntL4KoQNvfK70vtPHHLT8TvVy",
-      "iv": "7ctTW4UxC9yPGnZ1",
-      "createdAt": "2025-10-15T17:00:31.066Z",
-      "updatedAt": "2025-10-15T17:00:31.066Z"
-    }
-  ]
+  "users": [],
+  "sessions": [],
+  "entries": []
 }
